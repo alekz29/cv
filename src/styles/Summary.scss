@@ -1,0 +1,11 @@
+$font-color: #05a699;
+
+.Summary{
+  max-width: 1200px;
+  margin: 0 auto;
+  width:100%;
+  height:200px;
+  background:#e5f7f5;
+  border: dashed 2px $font-color;
+  border-radius: 20px;
+}
