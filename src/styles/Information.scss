@@ -17,20 +17,22 @@ $font-color: #ff5378;
       width: 100%;
 
       .content {
-        padding: 0 30px;
+        padding-left: 30px;
         background-color: white;
         position: relative;
         border-radius: 6px;
         font-family: Roboto;
         font-size: 16px;
+        margin-bottom: 40px;
         .content__data {
           color: $font-color;
-          font-size: 24px;
+          font-size: 22px;
+          margin-bottom: 15px;
 
         }
         .content__information {
           color: #9497a4;
-          margin: 15px 0;
+          margin: 25px 0;
 
         }
       }
@@ -38,7 +40,7 @@ $font-color: #ff5378;
   }
 }
 
-.container::after {
+.content::after {
   content: '';
   position: absolute;
   width: 10px;
@@ -50,22 +52,21 @@ $font-color: #ff5378;
   z-index: 1;
 }
 
-.container--left {
+.content--left {
   text-align: right;
 }
 
-.container--left::after {
-  right: -7px;
+.content--left::after {
+  right: -37px;
 }
 
-.container--right {
+.content--right {
   text-align: left;
 }
 
-.container--right::after {
-  left: -7px;
+.content--right::after {
+  left: -37px;
 }
-
 .information-container::after {
   content: '';
   position: absolute;
@@ -79,5 +80,5 @@ $font-color: #ff5378;
   font-size: 16px;
 }
 .content__information--big {
-  font-size: 26px;
+  font-size: 20px;
 }
