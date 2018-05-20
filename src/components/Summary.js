@@ -5,7 +5,8 @@ const Summary = () => {
     return (
         <section className={'summary-container'}>
             <div className={'padlock'}>
-                <img className={'padlock__img'} src={'https://cdn.discordapp.com/attachments/440174637440303114/447072724444119040/Untitled-1.png'}/>
+                <img alt="padlock" className={'padlock__img'}
+                     src={'https://cdn.discordapp.com/attachments/440174637440303114/447072724444119040/Untitled-1.png'}/>
             </div>
             <div className={'summary'}>
                 <div className={'fit-container'}>
@@ -19,10 +20,10 @@ const Summary = () => {
                             rekrutacji.
                             Dane zostaną ujawnione, gdy kandydat przyjmie Twoje zaproszenie.</p>
                     </div>
-                    <div className={'action'}>
+                    <nav className={'action'}>
                         <a className={'action__matching'}>DOPASOWANY W INNYCH PROCESACH (4)...</a>
                         <button className={'action-button'}>PRZENIEŚ</button>
-                    </div>
+                    </nav>
                 </div>
                 <div className={'result'}>
                     <p className={'result__fit'}>DOPASOWANIE:</p>

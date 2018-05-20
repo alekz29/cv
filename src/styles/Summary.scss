@@ -61,12 +61,14 @@ $light-color: #72cec7;
         justify-content: space-between;
         .action__matching {
           color: $font-color;
+          cursor: pointer;
         }
         .action-button {
           border: none;
           background: none;
           color: #929fa9;
           margin-right: 60px;
+          cursor: pointer;
         }
       }
     }
@@ -97,6 +99,7 @@ $light-color: #72cec7;
         border: none;
         line-height: 14px;
         margin-top: 35px;
+        cursor: pointer;
       }
     }
   }
@@ -122,6 +125,14 @@ $light-color: #72cec7;
 
 .fit__progress-bar--small::after {
   width: 40%;
+}
+
+.action-button:focus {
+  outline: 0;
+}
+
+.result__button {
+  outline: 0;
 }
 
 
