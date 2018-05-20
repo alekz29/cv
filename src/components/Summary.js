@@ -8,22 +8,22 @@ const Summary = () => {
                 <div className={'padlock'}>
                 </div>
                 <div className={'fit'}>
-                    <div className={'progress-bar'}>
+                    <div role={'progressbar'} className={'progress-bar'}>
                     </div>
-                    <div className={'progress-bar'}>
+                    <div role={'progressbar'} className={'progress-bar'}>
                     </div>
-                    <p>Aby zobaczyć dane kontaktowe kandydata, zaproś go do dalszego etapu rekrutacji.
+                    <p className={'statement'}>Aby zobaczyć dane kontaktowe kandydata, zaproś go do dalszego etapu rekrutacji.
                         Dane zostaną ujawnione, gdy kandydat przyjmie Twoje zaproszenie.</p>
                 </div>
                 <div className={'result'}>
-                    <p>DOPASOWANIE:</p>
-                    <h1>76%</h1>
+                    <p className={'result__fit'}>DOPASOWANIE:</p>
+                    <h1 className={'result__sum'}>76%</h1>
                 </div>
             </div>
             <div className={'action'}>
-                <a>DOPASOWANY W INNYCH PROCESACH(4)...</a>
-                <button>PRZENIEŚ</button>
-                <button>ZAPROŚ</button>
+                <a className={'action__matching'}>DOPASOWANY W INNYCH PROCESACH (4)...</a>
+                <button className={'action__button-move'}>PRZENIEŚ</button>
+                <button className={'action__button-invite'}>Zaproś</button>
             </div>
         </section>
     )
