@@ -5,6 +5,7 @@ const Summary = () => {
     return (
         <section className={'summary-container'}>
             <div className={'padlock'}>
+                <img className={'padlock__img'} src={'https://cdn.discordapp.com/attachments/440174637440303114/447072724444119040/Untitled-1.png'}/>
             </div>
             <div className={'summary'}>
                 <div className={'fit-container'}>

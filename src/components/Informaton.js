@@ -19,7 +19,6 @@ const Information = () => {
                     <div className="content content--left">
                         <h2 className={'content__data'}>WYKSZTALCENIE</h2>
                         <p className={'content__information'}>kandydat jeszce nie podał poziomu wykształcenia</p>
-
                     </div>
                 </div>
             </div>
